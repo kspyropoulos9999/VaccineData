@@ -98,7 +98,7 @@ def main():
                     print('Test results by zip code')
                     print('Zipcode'.ljust(30,' '),'John & Johnson'.ljust(30,' '),'Moderna'.ljust(30,' '),'Pfizer'.ljust(30,' '),'None'.ljust(30,' '))
                     print('----'.ljust(30,' '), '----'.ljust(30,' '), '----'.ljust(30,' '),'----'.ljust(30,' '),'----'.ljust(30,' '))
-                    # zip_codes is equal to first element in zip_codes array
+                    # zip_code variable is equal to first element in zip_codes array
                     zip_code = zip_codes[0]
                     # Variables to later count vaccine amounts
                     count_J = 0
